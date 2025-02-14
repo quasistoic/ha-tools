@@ -8,7 +8,7 @@ substitutions:
   dial_friendly_name: Hallway Dial
 
 packages:
-  remote_package_shorthand: github://esphome/quasistoic/ha-tools/m5stack_dial/thermostat.yaml@main
+  remote_package_shorthand: github://quasistoic/ha-tools/m5stack_dial/thermostat.yaml@main
 
 wifi:
   ssid: !secret wifi_ssid
