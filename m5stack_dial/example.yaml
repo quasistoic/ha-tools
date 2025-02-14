@@ -7,8 +7,9 @@ substitutions:
   # The display name you want for this dial in HA
   dial_friendly_name: Hallway Dial
 
+# The following two lines pull in the template with functionality.
 packages:
-  remote_package_shorthand: github://quasistoic/ha-tools/m5stack_dial/thermostat.yaml@main
+  dial_thermostat: github://quasistoic/ha-tools/m5stack_dial/thermostat.yaml@main
 
 wifi:
   ssid: !secret wifi_ssid
